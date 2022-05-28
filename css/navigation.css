@@ -1,0 +1,20 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    padding-top: 0.7rem 0;
+    height: 3rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.navigation i {
+    font-size: 1.8em;
+    color: var(--color-icons); 
+}
+
+.navigation i:nth-child(1) {
+    color: var(--color-special);
+}
+

@@ -1,0 +1,43 @@
+.buttons {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+    transition: 0.5s ease;
+}
+
+
+.each-button i {
+    background-color: white;
+    height: 4rem;
+    width: 4rem;
+    box-shadow: 1px 1px 1px var(--color-shadow);
+    border-radius: 50%;
+    margin-top: 30%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    
+}
+
+.each-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.buttons .each-button:nth-child(1) {
+    color: var(--color-x);
+}
+
+.buttons .each-button:nth-child(2) {
+    margin: 0 1rem;
+    color: var(--color-star);
+    font-size: 1rem
+}
+
+.buttons .each-button:nth-child(3) {
+    color: var(--color-heart);
+}
